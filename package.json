@@ -1,0 +1,39 @@
+{
+  "name": "MyApplication",
+  "version": "0.0.1",
+  "description": "My frist Node.js ES6 Application",
+  "private": true,
+  "homepage": "http://www.pack.ly",
+  "author": {
+    "name": "Pack.ly",
+    "email": "support@pack.ly",
+    "url": "http://www.pack.ly"
+  },
+  "contributors": [
+    {
+      "name": "Nicola Del Gobbo",
+      "email": "nicola@pack.ly",
+      "url": "http://www.pack.ly"
+    }
+  ],
+  "bin": {
+    "start": "./myapp.js"
+  },
+  "scripts": {
+    "start": "babel-node ./myapp.js"
+  },
+  "dependencies": {
+    "babel-cli": "*",
+    "babel-plugin-transform-regenerator": "*",
+    "babel-preset-es2015-node4": "*"
+  },
+  "devDependencies": {},
+  "babel": {
+    "presets": [
+      "es2015-node4"
+    ],
+    "plugins": [
+      "transform-regenerator"
+    ]
+  }
+}
