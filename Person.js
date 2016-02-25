@@ -27,19 +27,19 @@ export default class Person {
         this._lastName = lastName;
     }
 
-    get firstName(){
+    get firstName() {
         return this._firstName;
     }
 
-    set firstName(firstName){
+    set firstName(firstName) {
         this._firstName = firstName;
     }
 
-    get lastName(){
+    get lastName() {
         return this._lastName;
     }
 
-    set lastName(lastName){
+    set lastName(lastName) {
         this._lastName = lastName;
     }
 
