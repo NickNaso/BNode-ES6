@@ -26,12 +26,12 @@
 
 import Person from './Person';
 
-let packlyTeam = new Set();
+let myTeam = new Set();
 
-packlyTeam.add(new Person("Brendan", "Eich"));
-packlyTeam.add(new Person("Ada", "Lovelace"));
-packlyTeam.add(new Person("Dennis", "Ritchie"));
-packlyTeam.add(new Person("James", "Gosling"));
+myTeam.add(new Person("Brendan", "Eich"));
+myTeam.add(new Person("Ada", "Lovelace"));
+myTeam.add(new Person("Dennis", "Ritchie"));
+myTeam.add(new Person("James", "Gosling"));
 
 for (let person of packlyTeam) {
     console.log(person.toString());
