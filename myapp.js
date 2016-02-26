@@ -1,5 +1,5 @@
 /**
- * Packly licenses this file
+ * NickNaso licenses this file
  * to you under the Apache License, Version 2.0 (the
  * "License"); you may not use this file except in compliance
  * with the License.  You may obtain a copy of the License at
@@ -28,10 +28,10 @@ import Person from './Person';
 
 let packlyTeam = new Set();
 
-packlyTeam.add(new Person("Antonio", "D'Angelo"));
-packlyTeam.add(new Person("Giuseppe", "Prioriello"));
-packlyTeam.add(new Person("Mauro", "Doganieri"));
-packlyTeam.add(new Person("Nicola", "Del Gobbo"));
+packlyTeam.add(new Person("Brendan", "Eich"));
+packlyTeam.add(new Person("Ada", "Lovelace"));
+packlyTeam.add(new Person("Dennis", "Ritchie"));
+packlyTeam.add(new Person("James", "Gosling"));
 
 for (let person of packlyTeam) {
     console.log(person.toString());

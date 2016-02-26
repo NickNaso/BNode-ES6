@@ -3,17 +3,17 @@
   "version": "0.0.1",
   "description": "My frist Node.js ES6 Application",
   "private": true,
-  "homepage": "http://www.pack.ly",
+  "homepage": "https://github.com/NickNaso",
   "author": {
-    "name": "Pack.ly",
-    "email": "support@pack.ly",
-    "url": "http://www.pack.ly"
+    "name": "NickNaso",
+    "email": "nicoladelgobbo@gmail.com",
+    "url": "https://github.com/NickNaso"
   },
   "contributors": [
     {
       "name": "Nicola Del Gobbo",
-      "email": "nicola@pack.ly",
-      "url": "http://www.pack.ly"
+      "email": "nicoladelgobbo@gmail.com",
+      "url": "https://github.com/NickNaso"
     }
   ],
   "bin": {
